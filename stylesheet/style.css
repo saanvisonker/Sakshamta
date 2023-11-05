@@ -15,12 +15,16 @@
     width: 100%;
     padding: 1rem 3rem;
     font-size: 1.6rem;
-    background-color: var(--primary-color) ;
+    background-color: white ;
 color: rgb(255, 255, 255);
 font-family: 'dosis';
 font-weight: bolder;
-justify-content: flex-end;
+justify-content: space-between;
+align-items: center;
+}
 
+.logo img{
+  width: 12rem;
 }
 #nav ul{
     display: flex;    
@@ -30,21 +34,21 @@ justify-content: flex-end;
 }
 #nav ul li a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color:var(--secondary-color);
     margin-right: 2rem;
 }
 #login button{
     padding: 0.4rem 1rem;
   color: #ffffff;
     border-radius: 0.5rem;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
   font-family: 'dosis';
 font-weight: bolder;
 font-size: 1.2rem;
 border: 1px solid var(--secondary-color);
 }
 #login{
-    margin-left: 19rem;
+    /* margin-left: 19rem; */
 }
 .img {display: none;}
 
@@ -65,14 +69,14 @@ border: 1px solid var(--secondary-color);
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #bccfe1;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active {
-  background-color: #717171;
+  background-color: #114e87d8;
 }
 
 .fade {
@@ -81,6 +85,9 @@ border: 1px solid var(--secondary-color);
 }
 
 /* categories */
+.category_container{
+  margin: 2rem 0 4rem 0;
+}
 .title {
   color: var(--secondary-color);
   font-size: 2.5rem;
@@ -97,6 +104,7 @@ border: 1px solid var(--secondary-color);
   margin-left: 1.7rem;
   margin-right: 1.7rem;
   margin-top: 1rem;
+  font-size: 1.8rem;
 
   /* border-bottom: 1px solid var(--primary-color); */
 }
@@ -109,12 +117,16 @@ border: 1px solid var(--secondary-color);
 }
 
 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 2px solid rgb(250, 249, 249);
   box-shadow: 0rem 0rem .2rem 0rem #559cc0;
-  height: 8rem;
-  width: 7rem;
-  padding-bottom: .3rem ;
-  box-sizing: content-box;
+  height: 9.5rem;
+  width: 8.5rem;
+  padding: .5rem .5rem .8rem .5rem;
+  /* box-sizing: content-box; */
 }
 
 
