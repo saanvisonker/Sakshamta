@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Cardo&family=Concert+One&family=Cormorant+Garamond:wght@300;500;600;700&family=Dosis:wght@300;500;700&family=Josefin+Sans&family=Knewave&family=Poppins:wght@100;300;800&family=Quicksand:wght@500&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <title>About us</title>
+    <style>
+      * {
+        font-family: "dosis";
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --primary-color: #00a6fb;
+        --secondary-color: #074a89;
+      }
+      #aboutUs_container {
+        display: flex;
+        width: 100%;
+        background-color: rgb(241, 241, 241);
+      }
+      #aboutUsimg {
+        width: 36%;
+      }
+      #aboutUsimg img {
+        width: 100%;
+        height: 100%;
+      }
+      #aboutUs {
+        width: 64%;
+        display: flex;
+        flex-direction: column;
+      }
+      #aboutUs h3 {
+        font-size: 2.8rem;
+        font-weight: 500;
+        margin: 1.5rem auto;
+      }
+      #aboutUs span {
+        color: var(--secondary-color);
+      }
+      #about_boxs {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .about_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.7rem;
+        padding: 0.7rem;
+        width: 45%;
+        height: 48%;
+      }
+      .about_box img {
+        width: 20%;
+        border-radius: 50%;
+        margin: 0.7rem;
+      }
+      .about_box h4{
+        font-size: 1.2rem;
+        color: var(--secondary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="aboutUs_container">
+      <div id="aboutUsimg"><img src="./images/aboutus_pic.jpg" alt="" /></div>
+      <div id="aboutUs">
+        <h3>What say <span>About Us</span></h3>
+        <div id="about_boxs">
+          <div class="about_box" id="about_box1">
+            <img src="./images/about_profile.jpg" alt="" />
+            <div class="about_box_content">
+              <h4>Personalized Learning Profiles</h4>
+              <p>We help PwDs create profiles that cater to their unique needs and abilities, ensuring they have access to tailored support.</p>
+            </div>
+          </div>
+          <div class="about_box" id="about_box2">
+            <img src="./images/about_notification.png" alt="" />
+            <div class="about_box_content">
+                <h4>Timely Notifications</h4>
+                <p>Stay informed with notifications about crucial dates for job applications, examinations, and interviews.</p>
+              </div>
+            
+          </div>
+          <div class="about_box" id="about_box3">
+            <img src="./images/about_oppo.jpg" alt="" />
+            <div class="about_box_content">
+                <h4>Accessible Opportunities</h4>
+                <p>Discover job openings in the Government, Public Sector Units (PSUs), and the private sector, all presented in an inclusive format.</p>
+              </div>
+          </div>
+          <div class="about_box" id="about_box4">
+            <img src="./images/about_resourse.png" alt="" />
+            <div class="about_box_content">
+                <h4>Educational Support</h4>
+                <p>Access study materials, model question papers, and mock tests to prepare for competitive examinations with confidence./p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
