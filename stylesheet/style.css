@@ -61,6 +61,7 @@ border: 1px solid var(--secondary-color);
   width: 100%;
   position: relative;
   margin: auto;
+  overflow-x: hidden;
 }
 
 .dot {
