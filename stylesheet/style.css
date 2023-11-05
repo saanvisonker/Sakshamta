@@ -8,28 +8,19 @@
   --primary-color: #00a6fb;
   --secondary-color: #074a89;
 }
-.navmid {
-    display: flex;
- position: static;
-    width: 100%;
-    padding: 1rem 3rem;
-    font-size: 1.2rem;
-background-color:#00a6fb ;
-color: rgb(255, 255, 255);
-font-family: 'dosis';
-font-weight: bolder;
-}
+
 #nav {
     display: flex;
  position: static;
     width: 100%;
     padding: 1rem 3rem;
-    font-size: 1.2rem;
-background-color:#00a6fb ;
+    font-size: 1.6rem;
+    background-color: var(--primary-color) ;
 color: rgb(255, 255, 255);
 font-family: 'dosis';
 font-weight: bolder;
 justify-content: flex-end;
+
 }
 #nav ul{
     display: flex;    
@@ -39,26 +30,29 @@ justify-content: flex-end;
 }
 #nav ul li a{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin-right: 2rem;
 }
 #login button{
     padding: 0.4rem 1rem;
-    border: 1px solid black;
+  color: #ffffff;
     border-radius: 0.5rem;
-    color: #00a6fb;
-    font-family: 'dosis';
+    background-color: var(--primary-color);
+  font-family: 'dosis';
 font-weight: bolder;
+font-size: 1.2rem;
+border: 1px solid var(--secondary-color);
 }
 #login{
     margin-left: 19rem;
 }
 .img {display: none;}
 
+
 .home-container img {
-  width: 100%;
-  vertical-align: middle;
-}
+  width: 99vw;
+  height: 60vh;
+ }
 
 
 .home-container {
@@ -415,6 +409,4 @@ footer{
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
-#home{
-  background-color: #ffffff;
-}
+
