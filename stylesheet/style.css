@@ -38,6 +38,7 @@ align-items: center;
     margin-right: 2rem;
 }
 #login button{
+  cursor: pointer;
     padding: 0.4rem 1rem;
   color: #ffffff;
     border-radius: 0.5rem;
@@ -399,7 +400,7 @@ border: 1px solid var(--secondary-color);
 }
 footer{
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 .copyright {
   color: white;
