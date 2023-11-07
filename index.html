@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sakshamta</title>
     <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -27,12 +28,12 @@
       <div class="mid_nav">
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="./syllabus.html">Resource</a></li>
-        <li><a href="#Event">Event</a></li>
+        <li><a href="#" onclick="resource()" class="dropbtn" >Resource&nbsp;<i class="fa-solid fa-caret-down" id="icon1"></i></a></li>
+        <li><a href="#" onclick="myFunction()" class="dropbtn" >Event&nbsp;<i class="fa-solid fa-caret-down" id="icon2"></i></a></li>
         <li><a href="#about us">About us</a></li></ul></div>
         <div class="end_nav"><ul>
         <li id="login">
-          <a href="login.html"><button>Login</button></a>
+          <a href="./html/login.html"><button>Login</button></a>
         </li>
         <li>
           <a href="#notification"><i class="fa-solid fa-bell"></i></a>
@@ -42,6 +43,22 @@
         </li>
       </ul></div>
     </nav>
+  <!-- Dropdown  for events-->
+    <div class="dropdown">
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Examinations</a>
+        <a href="#">Admit Card</a>
+        <a href="#">Result</a>
+      </div>
+    </div>
+    <!-- drop down for resources -->
+    <div class="resource">
+      <div id="resources" class="resource-content">
+        <a href="../html/syllabus.html">Syllabus</a>
+        <a href="#">PYQ</a>
+        <a href="#">Sample paper</a>
+      </div>
+    </div>
     <section id="home">
       <div class="home-container">
 
@@ -62,14 +79,12 @@
         
         </div>
         <br>
-        
         <div style="text-align:center">
           <span class="dot"></span> 
           <span class="dot"></span> 
           <span class="dot"></span> 
         </div>
     </section>
-
     <div class="category_container">
         <div class="title">
             <h2 class="center">Categories</h2>
