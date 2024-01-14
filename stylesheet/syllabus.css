@@ -9,22 +9,28 @@
     --primary-color: #00a6fb;
     --secondary-color: #1c5d99;
 }
+body{
+    background-image: url(/images/background_img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .heading {
     text-align: center;
     color: var(--secondary-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: .7rem;
     padding-bottom: 0.2rem;
-    margin-bottom: .2rem;
+    margin-bottom: 3.8rem;
     font-family: 'dosis';
 
 }
 
 table {
     border: .15rem solid var(--secondary-color);
-    margin: 1rem;
-    height: 10rem;
+    /* margin: 1rem; */
+    margin: auto;
+    height: 20rem;
     width: 77rem;
     text-align: center;
 }
@@ -33,6 +39,9 @@ th {
     background-color: var(--primary-color);
     color: white;
     height: 2rem;
+}
+.table tr:nth-child(even){
+   background-color: #4395e12a;
 }
 
 tr {
