@@ -10,7 +10,7 @@
     --secondary-color: #1c5d99;
 }
 body{
-    background-image: url(./images/background_img2.png);
+    background-image: url(../images/background_img2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
